@@ -8,10 +8,12 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    // MARK: Elements
+    @IBOutlet weak var welcomeLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        welcomeLabel.textColor = .white
     }
 
 

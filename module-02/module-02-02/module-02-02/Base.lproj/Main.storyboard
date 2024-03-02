@@ -58,6 +58,9 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="zyE-XB-fCd" secondAttribute="trailing" constant="25" id="wSd-tq-Zwc"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="welcomeLabel" destination="zyE-XB-fCd" id="LnW-Ve-ErP"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
